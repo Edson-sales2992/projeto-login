@@ -1,0 +1,64 @@
+@charset "UTF-8";
+ /*typical device breakpoints 
+ peuqenas telas: 320px - 480px
+ tablets: 481px - 768px 
+ desktop: 962px - 1200px
+    large desktop: 1201px ou mais
+ */
+ @media screen and (min-width: 768px) and (max-width: 992px){
+    body{
+            background-image: linear-gradient(to top,#49a09d,#5f2c82);
+        }
+    h1{
+        font-size: 50px;
+    }
+    p{
+        font-size: 20px;
+        font-style: italic;
+    }
+    button{
+        font-size: 20px;
+        margin: 20px;
+        position: relative;
+        left: -8%;
+    }
+
+    section#login{
+        width: 90vw;
+    }
+    section#login div#imagem{
+        float: left;
+        width: 60%;
+        height: 100%;
+    }
+
+
+        div#formulario{
+            float: right;
+            width: 40%;
+            height: 100%;
+            padding: 20px;
+    }
+    }  
+
+    @media screen and (min-width: 992px){
+        body{
+            background-image: linear-gradient(to top,#49a09d,#5f2c82);
+        }
+        section#login{
+            width: 950px;
+        }
+        section#login div#imagem{
+            float: left;
+            width: 50%;
+            height: 100%;
+        }
+    
+    
+            div#formulario{
+                float: right;
+                width: 50%;
+                height: 100%;
+                padding: 20px;
+        }
+    }

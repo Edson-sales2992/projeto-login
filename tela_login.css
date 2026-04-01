@@ -13,6 +13,16 @@ body,html{
     width: 100vw;
 }
 
+    p{
+        font-size: 20px;
+        font-style: italic;
+    }
+    button{
+        font-size: 20px;
+        margin: 20px;
+        position: relative;
+        left: -8%;
+    }
 main{
     position: relative;
     height: 100vh;
@@ -29,6 +39,9 @@ section#login{
     width: 250px;
     height: 500px;
     border-radius: 10px;
+
+    
+    transition-timing-function: ease;
 }
 
 section#login div#imagem{
@@ -39,6 +52,19 @@ section#login div#imagem{
     height: 200px;
     border-radius: 10px 10px 0 0;
 }
+h1{
+        font-size: 50px;
+    }
+    p{
+        font-size: 20px;
+        font-style: italic;
+    }
+    button{
+        font-size: 20px;
+        margin: 20px;
+        position: relative;
+        left: -5%;
+    }
 
 div#formulario{
     display: block;
